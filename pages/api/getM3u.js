@@ -15,7 +15,7 @@ export default async function handler(req, res) {
         res.status(200).send(m3uString);
     }
     else
-        res.status(409).json({ error: "Tata Sky Deactivated" });
+        res.status(200).send(m3uString);
 }
 
 
