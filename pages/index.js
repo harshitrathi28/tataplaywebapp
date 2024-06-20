@@ -32,7 +32,6 @@ export default function Home() {
 
   useEffect(() => {
     if (theUser !== null) {
-      if (theUser.acStatus !== "DEACTIVATED") {
         // var myHeaders = new Headers();
         // myHeaders.append("Authorization", "Bearer 53d037668d748648c12097863c2321ea61be9de0");
         // myHeaders.append("Content-Type", "application/json");
